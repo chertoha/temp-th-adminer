@@ -1,0 +1,18 @@
+.ce-toolbar__plus {
+  width: 40px;
+  height: 40px;
+}
+
+.ce-toolbar__plus > svg {
+  width: 36px;
+  height: 36px;
+}
+
+.trim-text-two-row {
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
